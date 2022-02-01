@@ -83,12 +83,58 @@ body {
   list-style: none;
 }
 
+/* основной заголовок страницы */
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--footer-backgroud-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Наши особенности, примеры и пиццамейкеры */
+.features-list .title {
+  text-transform: uppercase;
+}
+
+.features-list .title,
+.team-list .title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+/* Заголовки */
+.title {
+  color: var(--title-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.examples-title,
+.team-title {
+  text-align: center;
+}
+
 /* Задаём основной цвет текста и фона в футере */
 .footer {
   background-color: var(--footer-backgroud-color);
+}
+
+.address {
   color: var(--primary-white-color);
 
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
