@@ -54,21 +54,14 @@ body {
   color: var(--accent-color);
 }
 
-/* Меню навигации */
-.site-nav .link {
-  color: var(--title-text-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-/* Меню контактов */
+/* Меню навигации и контактов */
+.site-nav .link,
 .contact-nav .link {
   color: var(--title-text-color);
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus,
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accent-color);
@@ -187,11 +180,7 @@ body {
 }
 
 .address {
-  color: var(--primary-white-color);
-
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 /* Логотип в футере*/
@@ -213,16 +202,13 @@ body {
   color: var(--primary-white-color);
 }
 
-.link.first:hover,
-.link.first:focus {
-  color: var(--accent-color);
-}
-
 .link.second {
   color: var(--footer-contacts-color);
 }
 
 .link.first:hover,
-.link.first:focus {
+.link.first:focus,
+.link.second:hover,
+.link.second:focus {
   color: var(--accent-color);
 }
