@@ -87,9 +87,12 @@ body {
 
 /* ОФОРМЛЕНИЕ МЭЙНА */
 /* основной заголовок страницы */
+.hero {
+  background-color: var(--footer-backgroud-color);
+}
+
 .hero-title {
   color: var(--primary-white-color);
-  background-color: var(--footer-backgroud-color);
 
   font-weight: 900;
   font-size: 44px;
