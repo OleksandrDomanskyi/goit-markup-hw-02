@@ -32,7 +32,6 @@ body {
 
 /* ОФОРМЛЕНИЕ ХЕДЕРА */
 .header {
-  background-color: var(--primary-white-color);
   color: var(--title-text-color);
 
   font-weight: 500;
