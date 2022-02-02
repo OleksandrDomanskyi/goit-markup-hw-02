@@ -29,17 +29,18 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-/* Задаём основной цвет текста, фона и шрифт хедера */
+/* ОФОРМЛЕНИЕ ХЕДЕРА */
 .header {
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
 
-  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Логотип в хедере */
@@ -50,6 +51,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .header-logo > span {
   color: var(--accent-color);
@@ -83,20 +85,25 @@ body {
   list-style: none;
 }
 
+/* ОФОРМЛЕНИЕ МЭЙНА */
 /* основной заголовок страницы */
 .hero-title {
   color: var(--primary-white-color);
   background-color: var(--footer-backgroud-color);
 
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
-/* Наши особенности, примеры и пиццамейкеры */
+.hidden {
+  display: none;
+}
+
+/* Наши особенности, примеры, пиццамейкеры, портфолио */
 .features-list .title {
   text-transform: uppercase;
 }
@@ -111,11 +118,24 @@ body {
   background-color: var(--secondary-background-color);
 }
 
+.portfolio-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-description {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
+
 /* Заголовки */
 .title {
   color: var(--title-text-color);
 
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -125,7 +145,43 @@ body {
   text-align: center;
 }
 
-/* Задаём основной цвет текста и фона в футере */
+/* Кнопки */
+.button {
+  text-align: center;
+  cursor: pointer;
+}
+
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+}
+
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.03em;
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* ОФОРМЛЕНИЕ ФУТЕРА */
 .footer {
   background-color: var(--footer-backgroud-color);
 }
@@ -133,7 +189,6 @@ body {
 .address {
   color: var(--primary-white-color);
 
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
