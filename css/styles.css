@@ -55,15 +55,22 @@ body {
 }
 
 /* Меню навигации и контактов */
-.site-nav .link,
-.contact-nav .link {
+.site-nav .link {
   color: var(--title-text-color);
+}
+
+.contact-nav .link {
+  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact-nav .link:hover,
 .contact-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -101,10 +108,15 @@ body {
   text-transform: uppercase;
 }
 
-.features-list .title,
-.team-list .title {
+.features-list .title {
   font-size: 14px;
   line-height: 1.14;
+}
+
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team {
@@ -112,7 +124,6 @@ body {
 }
 
 .portfolio-list .title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -140,6 +151,7 @@ body {
 
 /* Кнопки */
 .button {
+  font-family: Roboto, sans-serif;
   text-align: center;
   cursor: pointer;
 }
