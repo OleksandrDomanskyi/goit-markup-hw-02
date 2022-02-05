@@ -123,6 +123,11 @@ body {
   background-color: var(--secondary-background-color);
 }
 
+.team-list p {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 .portfolio-list .title {
   font-size: 18px;
   line-height: 2;
